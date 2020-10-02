@@ -1,0 +1,84 @@
+footer {
+  background: #F5FCFF;
+
+  .container {
+    .dropdown {
+      .dropdown-toggle {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+
+        color: #1E5F94;
+
+        &:after {
+          content: none;
+        }
+      }
+      .dropdown-menu {
+        background: #1E5F94;
+        .dropdown-item {
+          color: #FFFFFF;
+          &:hover {
+            color: #1E5F94;
+          }
+        }
+      }
+
+    }
+
+    .adress {
+      p {
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #1E5F94;
+
+        span {
+          font-weight: bold;
+        }
+      }
+    }
+
+    .social {
+      font-size: 13px;
+      line-height: 15px;
+
+      color: #3973A1;
+
+      a {
+        margin-left: 22px;
+
+        &:first-child {
+          margin-left: 32px;
+        }
+      }
+    }
+
+    .divider {
+      height: 0;
+      width: 100%;
+      border: 1px solid #B9E0FF;
+    }
+
+    .links {
+      a {
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #1E5F94;
+      }
+    }
+
+    .license {
+      font-size: 13px;
+      line-height: 15px;
+      text-align: center;
+
+      color: #3973A1;
+      span {
+        font-weight: bold;
+      }
+    }
+
+  }
+}

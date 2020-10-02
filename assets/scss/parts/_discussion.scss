@@ -1,0 +1,62 @@
+#discussion {
+  background: linear-gradient(180deg, #FBFBFB 0%, #F8F7F7 100%);
+
+  .container {
+    h2 {
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 28px;
+      line-height: 32px;
+
+      color: #234260;
+      border-left: 6px solid #FFF84C;
+      padding: 7px;
+    }
+
+    .left {
+      p.small {
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        /* identical to box height */
+
+
+        color: #9D9D9D;
+      }
+
+      p {
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #234260;
+      }
+    }
+
+    .right {
+      background: #E0F0FF;
+      border-radius: 12px;
+      padding: 17px 6px 13px 13px;
+
+      p {
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        /* or 137% */
+
+
+        color: #234260;
+        span {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

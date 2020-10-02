@@ -1,0 +1,119 @@
+#services {
+  .container {
+    border-left: 3px solid #2596D9;
+
+    h1 {
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 48px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+
+      color: #000000;
+    }
+
+    input[type="text"] {
+      padding-left: 15px;
+      background-color: #F3F3F3;
+      border: none;
+      width: 65%;
+      height: 48px;
+      border-radius: 8px;
+      outline: none;
+    }
+
+    form {
+      input[type="radio"] {
+        appearance: none;
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+        background: #FFFFFF;
+        border: 1px solid #2596D9;
+        box-sizing: border-box;
+        outline: none;
+
+        &:checked {
+          background: #2596D9;
+          border: 2px solid #FFFFFF;
+          box-shadow: 0 0 0 1px #2596D9;
+
+          & + label {
+            color: #2596D9;
+          }
+        }
+
+        label {
+          font-family: Ubuntu;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: center;
+
+          color: #000000;
+
+        }
+      }
+    }
+
+    .row {
+      .col {
+        h3 {
+          font-family: Ubuntu;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 26px;
+          line-height: 36px;
+          /* or 138% */
+
+
+          color: #000000;
+        }
+
+        p {
+          font-size: 14px;
+          line-height: 16px;
+
+          color: #565656;
+
+        }
+      }
+    }
+
+  }
+}
+
+@include media-breakpoint-down(md) {
+  #services {
+    .container {
+      input[type="text"] {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  #services {
+    .container {
+      h1 {
+        font-size: 30px;
+
+        .row {
+          .col {
+            p {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+
+      .radio-input-container {
+        width: 100%;
+      }
+    }
+  }
+}
